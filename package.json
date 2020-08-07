@@ -1,18 +1,16 @@
 {
   "name": "bootstrap-design-system",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
     "lib": "npx babel src -d lib"
   },
   "dependencies": {
-    "formik": "^1.5.4",
     "lodash": "^4.17.11",
     "polished": "^3.3.0",
     "styled-components": "^4.2.0",
-    "styled-system": "^4.1.0",
-    "yup": "^0.27.0"
+    "styled-system": "^4.1.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
