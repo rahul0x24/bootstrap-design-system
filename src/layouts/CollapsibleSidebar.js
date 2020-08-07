@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "@rk/design-system";
+import { View } from "bootstrap-design-system";
 
 export const CollapsibleSidebar = props => {
   return (

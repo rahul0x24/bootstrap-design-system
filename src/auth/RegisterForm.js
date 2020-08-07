@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, FormGroup, Field, PrimaryButton, Link } from "@rk/design-system";
+import { Form, FormGroup, Field, PrimaryButton, Link } from "bootstrap-design-system";
 import { string, object } from "yup";
 import { Formik } from "formik";
 

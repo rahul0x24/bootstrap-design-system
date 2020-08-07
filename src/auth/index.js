@@ -2,7 +2,7 @@ import React from "react";
 import { LoginForm } from "./LoginForm";
 import { RegisterForm } from "./RegisterForm";
 import { ResetPasswordForm } from "./ResetPasswordForm";
-import { View, AlertDanger, AlertSuccess, Link } from "@rk/design-system";
+import { View, AlertDanger, AlertSuccess, Link } from "bootstrap-design-system";
 
 export var AuthViewType = {
   LOGIN: "login",
