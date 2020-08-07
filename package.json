@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-design-system",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "lib": "npx babel src -d lib"
+  },
+  "dependencies": {
+    "formik": "^1.5.4",
+    "lodash": "^4.17.11",
+    "polished": "^3.3.0",
+    "styled-components": "^4.2.0",
+    "styled-system": "^4.1.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-styled-components": "^1.10.0"
+  }
+}
