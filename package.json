@@ -4,7 +4,10 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "lib": "npx babel src -d lib"
+    "lib": "npx babel src -d lib",
+    "build": "npm run lib && cd docs && npm run build",
+    "publish": "npm run build && npm publish",
+    "demo": "cd docs && npm run start"
   },
   "dependencies": {
     "lodash": "^4.17.11",

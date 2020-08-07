@@ -1,0 +1,37 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "npm run link-lib && webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "link-lib": "npm link ./../../bootstrap-design-system",
+    "postinstall": "npm run link-lib",
+    "postupdate": "npm run link-lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-design-system": "file:./..",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-styled-components": "^1.11.1",
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
