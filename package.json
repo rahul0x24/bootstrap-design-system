@@ -5,6 +5,7 @@
   "author": "Rahul Katariya <rahulkatariya@me.com> (http://rahul0x24.github.io)",
   "license": "MIT",
   "scripts": {
+    "bootstrap": "npm install && cd docs && npm install",
     "lib": "npx babel src -d lib",
     "build": "npm run lib && cd docs && npm run build",
     "publish": "npm run build && npm publish",
