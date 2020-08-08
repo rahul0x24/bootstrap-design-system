@@ -2,6 +2,7 @@
   "name": "bootstrap-design-system",
   "version": "0.0.4",
   "main": "src/index.js",
+  "author": "Rahul Katariya <rahulkatariya@me.com> (http://rahul0x24.github.io)",
   "license": "MIT",
   "scripts": {
     "lib": "npx babel src -d lib",
